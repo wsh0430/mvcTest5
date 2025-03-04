@@ -29,7 +29,7 @@
 <body>
 <p><br/></p>
 <div class="container">
-	<h2>게시판 리스트</h2>
+	<h2>게시판 리스트 연습입니다</h2>
 	<br/>
 	<div class="mb-3"><a href="boardInput" class="btn btn-success">글쓰기</a></div>
 	<table class="table table-hover">
@@ -42,7 +42,8 @@
 		</tr>
 		<c:forEach var="vo" items="${vos}" varStatus="st">
 			<tr class="text-center">
-				<td>${vo.idx }</td> <!-- idx는 getter를 의미함 -->
+				<%-- <td>${vo.idx }</td> <!-- idx는 getter를 의미함 --> --%>
+				<td>${st.count}</td>
 				<td class="text-start"><a href="boardContent?idx=${vo.idx}" class="text-dark link-primary link-underline-opacity-0 link-underline-opacity-100-hover">${vo.title}</a></td>
 				<td>${vo.name }</td>
 				<td>${vo.wDate }</td>
