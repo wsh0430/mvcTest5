@@ -31,7 +31,10 @@
 <div class="container">
 	<h2>게시판 리스트 연습입니다</h2>
 	<br/>
-	<div class="mb-3"><a href="boardInput" class="btn btn-success">글쓰기</a></div>
+	<div class="row">
+		<div class="col mb-2 text-start"><a href="boardInput" class="btn btn-success">글쓰기</a></div>
+		<div class="col mb-2 text-end"><a href="/mvcTest5" class="btn btn-warning">돌아가기</a></div>
+	</div>
 	<table class="table table-hover">
 		<tr class="table-secondary text-center">
 			<th class="p-3">번호</th>

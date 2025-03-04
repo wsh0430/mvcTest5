@@ -3,12 +3,16 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>확장자 패턴 연습하기3</title>
+	<title>title</title>
+	<jsp:include page="/include/bs5.jsp" />
 </head>
 <body>
 <p><br></p>
 <div class="container">
-	
+	<h2>이곳은 boardInput.jsp</h2>
+	<div>
+		<a href="javascript:history.back()" class="btn btn-warning">돌아가기</a>
+	</div>
 </div>
 </body>
 </html>
